@@ -1,2 +1,3 @@
 #!/bin/bash
+gcc -o $CFILE $CFILE.c 
 ./$CSFILE
