@@ -1,5 +1,9 @@
 #include <stdio.h>
-/*This is for puts a text*/ 
+/**
+ * main - Programming is
+ *
+ * Return: Always 0 (Sucess)
+ */
 int main(void)
 {
 	puts("\"Programming is like building a multilingual puzzle");
