@@ -4,7 +4,7 @@
  *   *
  *    * Return: Always 0 (Sucess)
  *
- * /
+ */
 
 int main(void)
 
