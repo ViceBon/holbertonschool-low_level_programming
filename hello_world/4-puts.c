@@ -1,4 +1,11 @@
 #!/bin/bash
-printf("with proper grammar, but the outcome is a piece of art,,\n.");
+#include <stdioo.h>
+#include <stdlib.h>
+
+int main()
+{
+	puts("Programming is like building a multilingual puzzle);
+		return 0;
+}
 
 
