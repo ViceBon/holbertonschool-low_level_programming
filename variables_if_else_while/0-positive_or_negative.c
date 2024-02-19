@@ -1,6 +1,7 @@
 #include<stdlib.h>
 #include <time.h>
-/*Random number to 0*/
+#include <stdio.h>
+/*Random number to */
 
 /*betty stile*/
 int main(void)
