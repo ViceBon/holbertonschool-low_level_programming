@@ -2,11 +2,11 @@
 #include <time.h>
 #include <stdio.h>
 
-/*
+/**
  *main - print last number of the variable
  *
  *
- *Return: Always 0.
+ *Return: Always (Success)
  */
 
 int main(void)
