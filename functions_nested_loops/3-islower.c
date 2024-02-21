@@ -3,13 +3,9 @@
 /**
  * main - check the code.
  *
- * Return: Always 0.
- */
-int main(void)
-{
-	int c;
-
-	int _islower(int c)
+ * Return: 1 for lowercase character of 0 for anything else
+ * */
+int _islower(int c)
 	{
 	if (c >= 97 && c <= 122)
 	{
