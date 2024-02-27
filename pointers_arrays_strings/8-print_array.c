@@ -1,11 +1,11 @@
 #include "main.h"
 #include <stdio.h>
 
-/*
- *print_array - prints element of an array of integers 
- *followed by a new line
- *@a: array to be printed
- *@i: number of elements to print
+/**
+ * print_array - prints element of an array of integers
+ * followed by a new line
+ * @a: array to be printed
+ * @i: number of elements to print
  *
  */
 void print_array(int *a, int n)
