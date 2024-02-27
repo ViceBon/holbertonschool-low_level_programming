@@ -1,24 +1,27 @@
 #include "main.h"
-#include <stdio.h>
+
 /**
- * puts2 - Write a function that prints every other character of a string, 
- *         starting with the first character, followed by a new line.
- *
- * @s: This pointer point to a char or string
- *
+ *puts2 - read the numbers there and print the even numbers
+ *followed by a new line
+ * @s: string to print de chars from
  *
  */
 
 void puts2(char *s)
 {
-	int a;
+	int len, i;
 
-	for (a = 0; s[a] != '\0'; a++)
+	len = 0;
+
+	while (s[len] != '\0')
 	{
-		if (a % 2 == 0)
-		{
-			_putchar(s[a]);
-		}
+	len++;
 	}
+
+	for (i = 0; i < len; i += 2)
+	{
+	_putchar(s[i]);
+	}
+
 	_putchar('\n');
 }
